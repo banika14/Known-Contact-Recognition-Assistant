@@ -43,7 +43,7 @@ working directory):
 | `person-2.PNG` | Reference face image for contact `ABC` |
 
 To enroll a contact, add an entry to `KNOWN_CONTACTS` with a clear,
-front-facing photo (and only enroll people who have agreed to it):
+front-facing photo:
 ```python
 KNOWN_CONTACTS = {
     "ABC": {"image_file": "person-2.PNG", "note": "Undergrad Thesis Mentee"},
